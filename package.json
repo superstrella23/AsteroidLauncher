@@ -1,13 +1,13 @@
 {
-  "name": "helioslauncher",
-  "version": "2.0.4",
-  "productName": "Helios Launcher",
-  "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "name": "doublecrewlauncher",
+  "version": "1.1.2",
+  "productName": "DoubleCrew Launcher",
+  "description": "Ejecuta DoubleCrew Launcher",
+  "author": "DoubleCrew Studio",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "homepage": "",
   "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issues"
+    "url": ""
   },
   "private": true,
   "main": "index.js",
@@ -35,6 +35,7 @@
     "helios-core": "~2.0.4",
     "helios-distribution-types": "^1.2.0",
     "jquery": "^3.6.4",
+    "minecraft-launcher-core": "^3.17.2",
     "semver": "^7.4.0"
   },
   "devDependencies": {
@@ -44,6 +45,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": ""
   }
 }

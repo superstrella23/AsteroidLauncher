@@ -1,0 +1,32 @@
+<div id="loginOfflineContainer" style="display: none;">
+    <link rel="stylesheet" href="./assets/css/launcher.css">
+    <div id="loginaCancelContainer">
+        <button id="loginaCancelButton">
+            <div id="loginCancelIcon">X</div>
+            <span id="loginCancelText">Cancelar</span>
+        </button>
+    </div>
+    <div id="offlineContent">
+        <label id="status"></label>
+        <div id="fondo"></div>
+        <div class="center">
+        <input id="nick" class="loginField" type="text" placeholder="Nombre de Usuario"/>
+        <button id="loginaButton">
+            <div id="loginaButtonContent">
+                LOGUEAR
+                <svg id="loginSVG" viewBox="0 0 24.87 13.97">
+                    <defs>
+                        <style>.arrowLine{fill:none;stroke:#FFF;stroke-width:2px;transition: 0.25s ease;}</style>
+                    </defs>
+                    <polyline class="arrowLine" points="0.71 13.26 12.56 1.41 24.16 13.02"/>
+                </svg>
+                <div class="circle-loader">
+                    <div class="checkmark draw"></div>
+                </div>
+                <!--<div class="spinningCircle" id="loginSpinner"></div>-->
+                <script type="module" src="./assets/js/scripts/landing.js"></script>
+            </div>
+        </button>
+    </div>
+    <script type="module" src="./assets/js/returnbuttons.js"></script>
+</div>

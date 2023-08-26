@@ -121,7 +121,7 @@ ipcMain.on(MSFT_OPCODE.OPEN_LOGIN, (ipcEvent, ...arguments_) => {
     msftAuthViewSuccess = arguments_[0]
     msftAuthViewOnClose = arguments_[1]
     msftAuthWindow = new BrowserWindow({
-        title: 'Microsoft Login',
+        title: 'Logueo Microsoft',
         backgroundColor: '#222222',
         width: 520,
         height: 600,
@@ -174,7 +174,7 @@ ipcMain.on(MSFT_OPCODE.OPEN_LOGOUT, (ipcEvent, uuid, isLastAccount) => {
     msftLogoutSuccess = false
     msftLogoutSuccessSent = false
     msftLogoutWindow = new BrowserWindow({
-        title: 'Microsoft Logout',
+        title: 'Deslogueo Microsoft',
         backgroundColor: '#222222',
         width: 520,
         height: 600,
@@ -232,6 +232,11 @@ function createWindow() {
             nodeIntegration: true,
             contextIsolation: false
         },
+        resizable: false,
+        center: true,
+        maximizable: false,
+        minWidth: 980,
+        minHeight:552,
         backgroundColor: '#171614'
     })
     remoteMain.enable(win.webContents)

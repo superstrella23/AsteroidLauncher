@@ -12,7 +12,7 @@ const { HeliosDistribution } = require('helios-core/common')
 
 const logger = LoggerUtil.getLogger('Preloader')
 
-logger.info('Loading..')
+logger.info('Cargando..')
 
 // Load ConfigManager
 ConfigManager.load()
